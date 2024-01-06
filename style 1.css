@@ -50,7 +50,7 @@ header .label-section{
     letter-spacing: 5px;
 }  
 
-.label-section .learn-more-button{
+.learn-more-button{
     background-color: rgb(255, 229, 0);
     color: rgb(27, 27, 27);
     font-size: 10px;
@@ -63,6 +63,7 @@ header .label-section{
     display: inline-block;
     border-style: none;
     margin-bottom: 255px;
+    text-decoration: none;
 }
 
 .section-1{
@@ -74,7 +75,6 @@ header .label-section{
 
 .section-1 .text {
     font-size: 15px;
-    font-family: "Raleway";
     color: rgb(112, 112, 112);
     line-height: 2.133;
     text-align: center;
@@ -90,7 +90,6 @@ header .label-section{
 
 .section-2 .text {
     font-size: 20px;
-    font-family: "Raleway";
     color: rgb(27, 27, 27);
     line-height: 1.35;
     text-align: center;
@@ -103,6 +102,7 @@ header .label-section{
     width: 270px;
     background-color: white;
     margin-right: 30px;
+    filter: drop-shadow(rgba(37, 39, 42, 0.1) 0px 0px 5px);
 }
 
 .element .text{
@@ -127,11 +127,13 @@ header .label-section{
     width: 270px;
     background-color: white;
     margin-right: 30px;
+    filter: drop-shadow(rgba(37, 39, 42, 0.1) 0px 0px 5px);
 }
 
 .element2{
     display: flex;
     flex-direction: column;
+    filter: drop-shadow(rgba(37, 39, 42, 0.1) 0px 0px 5px);
 }
 
 .element2 .text{
@@ -167,6 +169,7 @@ header .label-section{
     height: 70px;
     width: 270px;
     background-color: #ffffff;
+        filter: drop-shadow(rgba(37, 39, 42, 0.1) 0px 0px 5px);
 }
 
 .list3 .t{
@@ -250,7 +253,7 @@ header .label-section{
     background-color: #1a1a1a;
 }
 
-.boxes .text-box{
+.boxes #text-box{
     background-color: #f4f4f4;
     display: flex;
     align-items: center;
@@ -258,7 +261,7 @@ header .label-section{
     width: 321px;
 }
 
-.boxes .text-box .yellow-bow{
+.boxes #text-box .yellow-box{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -268,7 +271,7 @@ header .label-section{
     background-color: #ffe500;
 }
 
-.boxes .text-box .yellow-bow .p-box{
+.boxes #text-box .yellow-box .p-box{
     width: 300px;
     height: 190px;
     background-color: #ffffff;
@@ -279,8 +282,204 @@ header .label-section{
     font-size: 13px;
 }
 
+.section-5{
+    background-color: #1a1a1a;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.view-video-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #ffe500;
+    background-color: #1a1a1a;
+    border: 1px solid #ffe500;
+    width: 370px;
+    height: 77px;
+    font-size: 15px;
+    letter-spacing: 10px;
+}
+
+.section-6{
+    padding-top: 86px;
+    text-align: center;
+
+}
+
+.section-6 .text{
+    font-size: 20px;
+    color: rgb(27, 27, 27);
+    line-height: 1.35;
+    text-align: center;
+    letter-spacing: 15px;
+    display: inline-block;
+}
+
+.list4 li{
+    margin-right: 30px;
+    height: 515px;
+    width: 270px;
+    padding-bottom: 30px;
+    background-color: #ffffff;
+    filter: drop-shadow(rgba(37, 39, 42, 0.1) 0px 0px 5px);
+}
+
+.list4 .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 515px;
+}
+
+.card .profile{
+    height: 290px;
+    width: 270px;
+    background-color: #1a1a1a;
+}
+
+.card .name-box{
+    height: 60px;
+    width: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d1bc05;
+}
+
+.card .name-box .name{
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 7px;
+    font-weight: 700;
+}
+
+.list4{
+    margin-bottom: 90px;
+}
+
+.section-7{
+    position: relative;
+    height: 620px;
+    background: linear-gradient(to bottom, transparent 0%, transparent 32%, #ffe500 32%, #ffe500 64%,transparent 64%, transparent 100%);
+}
+
+.upper-section .black-text-box{
+    height: 375px;
+    width: 570px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a1a;
+    position: absolute;
+    left: 350px;
+}
+
+.section-7 .upper-section .black-text-box .text{
+    font-size: 12px;
+    text-align: justify;
+    line-height: 27px;
+    color: white;
+    width: 420px;
+    height: 230px;
+}
+
+.section-7 .text-section{
+    position: absolute;
+    right: 460px;
+    width: 395px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-7 .text-section .text1{
+    font-size: 12px;
+    font-weight: 700;
+    display: inline-block;
+    text-align: right;
+    font-style: italic;
+}
+
+.section-7 .lower-section .black-text-box{
+    background-color: #1a1a1a;
+    position: absolute;
+    right: 344px;
+    height: 375px;
+    width: 570px;
+    margin-top: 210px;
+}
+
+footer{
+    background-color: #1a1a1a;
+    height: 386px;
+    display: flex;
+    justify-content: center;
+}
+
+footer .information-section{
+    margin-top: 88px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .links-section{
+    margin-top: 88px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .aboutus-section{
+    margin-top: 88px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .contactus-section{
+    margin-top: 88px;
+    margin-left: 125px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactus-section .gmail-button{
+    width: 370px;
+    height: 45px;
+    color: #1b1b1b;
+    background-color: #ffe500;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    text-decoration: none;
+    margin-top: 47px;
+}
+
+.contactus-section .social-media-section{
+    display: flex;
+    justify-content: left;
+    gap: 11px;
+    margin-top: 38px;
+}
+
 #black-sparkle{
     margin: 0 67px;
+}
+
+#footer-context{
+    font-size: 12px;
+    display: inline-block;
+    text-align: left;
+    color: #f0f0f0;
+    line-height: 2.133;
+    margin-top: 0px;
+    text-decoration: none;
 }
 
 #context{
